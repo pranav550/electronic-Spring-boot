@@ -1,0 +1,2 @@
+database: mysql 8.x
+java 18

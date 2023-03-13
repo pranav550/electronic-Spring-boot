@@ -1,0 +1,27 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"-->
+<!--        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">-->
+
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context  http://www.springframework.org/schema/context/spring-context.xsd
+    ">
+    <bean class="config.xml.beans.Address" id="address">
+        <property name="city" value="agra"/>
+        <property name="street" value="baghAnta"/>
+    </bean>
+    <bean class="config.xml.beans.Student" id="student1">
+        <property name="name" value="pranav"/>
+        <property name="age" value="24"/>
+        <property name="address" ref="address"/>
+    </bean>
+    <!-- bean definitions here -->
+    <context:component-scan base-package="another.world"/>
+    <context:component-scan base-package="org.example"/>
+
+</beans>

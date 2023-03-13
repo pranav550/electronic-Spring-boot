@@ -1,0 +1,20 @@
+restart
+1)ssh -i "bootcourse.pem" ubuntu@ec2-65-0-144-52.ap-south-1.compute.amazonaws.com
+
+2)//login super user
+sudo su
+
+3)docker ps
+
+4)//stop both container
+docker stop id
+
+5)// remove container
+docker ps -a
+docker rm mysql
+docker rem
+
+6)docker run -d --name mysqldb -p 3308:3306 --network=bootApp -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=electronic_store -v /projects/data:/var/lib/mysql  mysql	
+
+7)docker run -d --name electronicStore -p 9091:9090 --network=bootApp -e MYSQL_HOST=mysqldb -e MYSQL_PORT=3306 -v /projects/images:/images  pranavv481/electronic1.0:latest	
+

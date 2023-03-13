@@ -1,0 +1,53 @@
+///network
+
+$ docker network create test-net
+
+$ docker run --net test-net --name nc-server -d nicolaka/netshoot nc -vl 8080
+17df24cf91d1cb785cfd0ecbe0282a67adbfe725af9a1169f0650a022899d816
+
+$ docker run --net test-net --name nc-client -it --rm nicolaka/netshoot nc -vz nc-server 8080
+Connection to nc-server 8080 port [tcp/http-alt] succeeded!
+
+$ docker logs nc-server
+Listening on [0.0.0.0] (family 0, port 8080)
+Connection from nc-client.test-net 37144 received!
+
+$ docker rm nc-server
+nc-server
+
+$ docker network rm test-net
+
+
+
+0)//communicating two container create network
+docker network create bootApp
+
+1)//docker pull mysql image
+
+docker pull mysql
+docker images			
+docker run -d --name mysqldb -p 3308:3306 --network=bootApp -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=electronic_store  mysql
+
+2)//creating docker image
+docker build -t electronic .
+
+3)//show  docker image
+
+docker images
+
+4)// run docker image
+docker run -it --name electronicStore -p 9091:9090 --network=bootApp -e MYSQL_HOST=mysqldb -e MYSQL_PORT=3306 electronic
+docker run -d --name electronicStore -p 9091:9090 --network=bootApp -e MYSQL_HOST=mysqldb -e MYSQL_PORT=3306 electronic
+
+
+push the image to docker hub
+1)docker login
+2)docker tag electronic pranavv481/electronic1.0
+3)docker push pranavv481/electronic1.0		
+	
+
+
+
+
+
+ 		

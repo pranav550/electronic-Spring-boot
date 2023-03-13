@@ -1,0 +1,24 @@
+1)//Run docker file
+docker build -t myubuntuimage .
+
+2)docker images
+
+3)docker run --name myYbuntuContainer myubuntuimage
+
+4)docker build -t myjavaimage .
+
+5)docker images
+
+6)docker run --name javaProject myjavaimage 
+
+7)docket build -t pythonproject .
+
+8)docker run --name pythonProject pythonproject
+
+9)docker build -t bootimage .
+
+10)docker image
+
+11)docker run --name bootProject -it -p 9595:9595 -d bootimage
+
+12)docker logs bootProject

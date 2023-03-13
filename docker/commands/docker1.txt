@@ -1,0 +1,77 @@
+detach = run on backgroud
+it= run continously
+
+
+1)//check the version
+docker -v
+
+2)// pull image
+docker pull [imageName]
+docker pull hello-world
+docker pull openjdk
+
+3)// docker image
+docker images 
+
+4)//docker search 
+docker search mysql
+docker search nginx
+
+5)// to run image
+docker run python
+
+6)//Check all container status
+ps -a
+
+7)// exit from python shell
+exit()
+
+8)// running container continously
+docker run --name javaContainer -it -d openjdk
+
+9)// exit from java jsshell
+/exit 
+
+10)//check only running container status
+docker ps 
+
+11)// check container information
+docker inspect name
+
+12)// run shell
+docker exec -it some-mysql
+
+13)exit mysql shell
+exit
+
+14)docker run --name nginxServer  -d -p 8080:80 nginx
+
+15)docker run -dit --name my-running-app -p 8080:80 my-apache2
+
+16)//Stop container
+docker stop container-name/id
+
+17)// docker remove from ps-a container
+docker rm id
+
+18)// remove images
+docker rmi name/id
+
+19)//restart
+docker restart container name
+
+20)docker login
+
+21)docker commit
+
+22)docker push
+
+23)docker copy
+
+24)docker logs container name
+
+25)docker volume
+
+26)docker logout
+
+ 

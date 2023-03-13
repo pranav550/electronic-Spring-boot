@@ -1,0 +1,32 @@
+sudo su
+apt update 
+apt upgrade	
+
+https://www.simplilearn.com/tutorials/docker-tutorial/how-to-install-docker-on-ubuntu
+
+sudo apt-get remove docker docker-engine docker.io
+sudo apt-get update
+sudo apt install docker.io
+docker
+docker --version
+
+
+0)//communicating two container create network
+docker network create bootApp
+
+1)//docker pull mysql image
+
+docker run -d --name mysqldb -p 3308:3306 --network=bootApp -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=electronic_store  mysql	
+
+2)docker images
+
+3)docker ps
+
+4)docker run -d --name electronicStore -p 9091:9090 --network=bootApp -e MYSQL_HOST=mysqldb -e MYSQL_PORT=3306 pranavv481/electronic1.0:latest
+
+
+restart:
+ssh -i "bootcourse.pem" ubuntu@ec2-65-0-144-52.ap-south-1.compute.amazonaws.com
+
+IP
+http://65.0.144.52:9091/test

@@ -1,0 +1,84 @@
+2023-01-26 23:19:54.739  INFO 8304 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Starting SpringMvcProjectApplication using Java 18.0.1.1 on DESKTOP-JKQVSHT with PID 8304 (G:\study\code-with-dugesh\SpringMvcProject\target\classes started by user in G:\study\code-with-dugesh\SpringMvcProject)
+2023-01-26 23:19:54.744  INFO 8304 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-01-26 23:19:55.053  INFO 8304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-26 23:19:55.054  INFO 8304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-26 23:19:59.744  INFO 8304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-26 23:19:59.747  INFO 8304 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+2023-01-26 23:19:59.747  INFO 8304 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-01-26 23:19:59.748  INFO 8304 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-26 23:19:59.760  INFO 8304 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+2023-01-26 23:19:59.799  INFO 8304 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-26 23:19:59.800  INFO 8304 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-01-26 23:20:00.092  INFO 8304 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-26 23:20:00.093  INFO 8304 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5030 ms
+2023-01-26 23:20:01.647  INFO 8304 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-26 23:20:01.780  INFO 8304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-26 23:20:01.830  INFO 8304 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Started SpringMvcProjectApplication in 8.834 seconds (JVM running for 10.626)
+2023-01-26 23:20:17.923  INFO 8304 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-26 23:20:17.924  INFO 8304 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-26 23:20:17.926  INFO 8304 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-01-26 23:20:18.054 ERROR 8304 --- [http-nio-8080-exec-1] c.l.m.S.controllers.ProductController    : ProductName phone
+2023-01-26 23:20:18.058  WARN 8304 --- [http-nio-8080-exec-1] c.l.m.S.controllers.ProductController    : ProductId 1234
+2023-01-26 23:20:18.058  INFO 8304 --- [http-nio-8080-exec-1] c.l.m.S.controllers.ProductController    : productRating 4
+2023-01-26 23:24:02.162  INFO 8528 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Starting SpringMvcProjectApplication using Java 18.0.1.1 on DESKTOP-JKQVSHT with PID 8528 (G:\study\code-with-dugesh\SpringMvcProject\target\classes started by user in G:\study\code-with-dugesh\SpringMvcProject)
+2023-01-26 23:24:02.166  INFO 8528 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-01-26 23:24:02.432  INFO 8528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-26 23:24:02.433  INFO 8528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-26 23:24:06.786  INFO 8528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-26 23:24:06.789  INFO 8528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+2023-01-26 23:24:06.790  INFO 8528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-01-26 23:24:06.791  INFO 8528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-26 23:24:06.804  INFO 8528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+2023-01-26 23:24:06.837  INFO 8528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-26 23:24:06.838  INFO 8528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-01-26 23:24:07.167  INFO 8528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-26 23:24:07.168  INFO 8528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4733 ms
+2023-01-26 23:24:08.680  INFO 8528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-26 23:24:08.828  INFO 8528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-26 23:24:09.008  INFO 8528 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Started SpringMvcProjectApplication in 8.207 seconds (JVM running for 10.085)
+2023-01-26 23:26:17.714  INFO 5780 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Starting SpringMvcProjectApplication using Java 18.0.1.1 on DESKTOP-JKQVSHT with PID 5780 (G:\study\code-with-dugesh\SpringMvcProject\target\classes started by user in G:\study\code-with-dugesh\SpringMvcProject)
+2023-01-26 23:26:17.718  INFO 5780 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-01-26 23:26:17.907  INFO 5780 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-26 23:26:17.908  INFO 5780 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-26 23:26:21.323  INFO 5780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-26 23:26:21.326  INFO 5780 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+2023-01-26 23:26:21.327  INFO 5780 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-01-26 23:26:21.327  INFO 5780 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-26 23:26:21.337  INFO 5780 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+2023-01-26 23:26:21.373  INFO 5780 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-26 23:26:21.375  INFO 5780 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-01-26 23:26:21.612  INFO 5780 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-26 23:26:21.613  INFO 5780 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3702 ms
+2023-01-26 23:26:22.728  INFO 5780 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-26 23:26:22.820  INFO 5780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-26 23:26:22.854  INFO 5780 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Started SpringMvcProjectApplication in 6.273 seconds (JVM running for 7.599)
+2023-01-26 23:26:30.442  INFO 5780 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-26 23:26:30.443  INFO 5780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-26 23:26:30.446  INFO 5780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-01-26 23:26:30.539 ERROR 5780 --- [http-nio-8080-exec-1] c.l.m.S.controllers.ProductController    : ProductName phone
+2023-01-26 23:26:30.542  WARN 5780 --- [http-nio-8080-exec-1] c.l.m.S.controllers.ProductController    : ProductId 1234
+2023-01-26 23:26:30.543  INFO 5780 --- [http-nio-8080-exec-1] c.l.m.S.controllers.ProductController    : productRating 4
+2023-01-26 23:27:40.670  INFO 9540 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Starting SpringMvcProjectApplication using Java 18.0.1.1 on DESKTOP-JKQVSHT with PID 9540 (G:\study\code-with-dugesh\SpringMvcProject\target\classes started by user in G:\study\code-with-dugesh\SpringMvcProject)
+2023-01-26 23:27:40.674 DEBUG 9540 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-01-26 23:27:40.676  INFO 9540 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-01-26 23:27:40.884  INFO 9540 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-26 23:27:40.885  INFO 9540 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-26 23:27:45.224  INFO 9540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-26 23:27:45.227  INFO 9540 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+2023-01-26 23:27:45.228  INFO 9540 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-01-26 23:27:45.229  INFO 9540 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-26 23:27:45.239  INFO 9540 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+2023-01-26 23:27:45.272  INFO 9540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-26 23:27:45.273  INFO 9540 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-01-26 23:27:45.522  INFO 9540 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-26 23:27:45.523  INFO 9540 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4636 ms
+2023-01-26 23:27:46.981  INFO 9540 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-26 23:27:47.122  INFO 9540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-26 23:27:47.158  INFO 9540 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Started SpringMvcProjectApplication in 7.787 seconds (JVM running for 9.269)
+2023-01-26 23:28:12.196  INFO 9540 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-26 23:28:12.197  INFO 9540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-26 23:28:12.200  INFO 9540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-01-26 23:28:12.313 ERROR 9540 --- [http-nio-8080-exec-1] c.l.m.S.controllers.ProductController    : ProductName phone
+2023-01-26 23:28:12.318  WARN 9540 --- [http-nio-8080-exec-1] c.l.m.S.controllers.ProductController    : ProductId 1234
+2023-01-26 23:28:12.319  INFO 9540 --- [http-nio-8080-exec-1] c.l.m.S.controllers.ProductController    : productRating 4
+2023-01-26 23:28:12.320 DEBUG 9540 --- [http-nio-8080-exec-1] c.l.m.S.controllers.ProductController    : this is testing for debug
